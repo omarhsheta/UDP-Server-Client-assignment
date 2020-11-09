@@ -118,9 +118,6 @@ def print_message(data):
     :param data: the data of the packet in bytes
     :return: None
     """
-    #
-    #Make sure to print the bytes accordingly
-    #
     print("\n"+data.decode("utf-8"))
 
 
